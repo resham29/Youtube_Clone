@@ -1,18 +1,21 @@
 🎬 YouTube Clone
 
 📜 Project Description:
-A simple YouTube clone built using HTML and CSS. This project showcases a responsive design with a navigation bar, search bar, and a grid layout for video thumbnails. It focuses on structuring content and styling without JavaScript.
+
+- A simple YouTube clone built using HTML and CSS. This project showcases a responsive design with a navigation bar, search bar, and a grid layout for video thumbnails. It focuses on structuring content and styling without JavaScript.
 
 🚀 Features:
-Responsive layout for different screen sizes
 
-Clean navigation bar and search bar
+1. Responsive layout for different screen sizes
 
-Video thumbnail grid design
+2. Clean navigation bar and search bar
 
-Pure HTML and CSS implementation
+3. Video thumbnail grid design
+
+4. Pure HTML and CSS implementation
 
 🎨 Technologies Used:
+
 HTML
 
 CSS
