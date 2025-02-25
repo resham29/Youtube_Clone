@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with you voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="channel-picture/my-channel.jpeg"
+        />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <!-- 1 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series1.avif" alt="" />
+          <div class="video-time">38:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/hum.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Ehd e Wafa Episode 1 | English Sub | Digitally Presented by Master
+              Paints HUM TV Drama 29 Sep 2019
+            </p>
+            <p class="video-author">HUM TV</p>
+            <p class="video-stats">57M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series2.avif" alt="" />
+          <div class="video-time">38:44</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/hum.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Yakeen Ka Safar Episode #01 HUM TV Drama</p>
+            <p class="video-author">HUM TV</p>
+            <p class="video-stats">23M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series3.avif" alt="" />
+          <div class="video-time">19:43</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/hum.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Tanaa Banaa | Episode 1 | Digitally Presented by OPPO | HUM TV |
+              Drama | 14 April 2021
+            </p>
+            <p class="video-author">HUM TV</p>
+            <p class="video-stats">13M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series4.avif" alt="" />
+          <div class="video-time">35:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/hum.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <span class="drama3">
+                Hum Tum - Episode 01 - 3rd April 2022 - Ahad Raza Mir, Ramsha
+                Khan, Junaid Khan, Sarah Khan, HUM TV
+              </span>
+            </p>
+            <p class="video-author">HUM TV</p>
+            <p class="video-stats">50M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series5.avif" alt="" />
+          <div class="video-time">36:21</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/hum.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Fairy Tale EP 01 - 23 Mar 23 - Presented By Sunsilk, Powered By
+              Glow & Lovely, Associated By Walls
+            </p>
+            <p class="video-author">HUM TV</p>
+            <p class="video-stats">29M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 6 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series6.avif" alt="" />
+          <div class="video-time">36:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/hum.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Meem Se Mohabbat - Episode 01 [CC] 5th Dec 2024 - Sponsored By
+              foodpanda, Master Paints, Skin White
+            </p>
+            <p class="video-author">HUM TV</p>
+            <p class="video-stats">26M views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 7 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series7.avif" alt="" />
+          <div class="video-time">37:41</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/ary.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <span class="drama3">
+                Mere Humsafar Episode 1 (English Subtitles) 30th December 2021 |
+                ARY Digital
+              </span>
+            </p>
+            <p class="video-author">ARY Digital HD</p>
+            <p class="video-stats">63M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 8 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series8.avif" alt="" />
+          <div class="video-time">40:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/ary.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Mayi Ri | Episode 1 | 2nd August 2023 (English Subtitles) ARY
+              Digital Drama
+            </p>
+            <p class="video-author">ARY Digital HD</p>
+            <p class="video-stats">57M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- 9 -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/series9.avif" alt="" />
+          <div class="video-time">39:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/ary.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kabhi Main Kabhi Tum - Episode 1 | Fahad Mustafa | Hania Aamir | 2
+              July 2024 (Eng Sub) | ARY Digital
+            </p>
+            <p class="video-author">ARY Digital HD</p>
+            <p class="video-stats">68M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
